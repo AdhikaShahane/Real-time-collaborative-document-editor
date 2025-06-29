@@ -24,5 +24,6 @@ Real-time Communication: WebSockets (via Socket.IO)
 the client-server interaction is handled using both HTTP and WebSockets. When the user opens the app in their browser, the React frontend loads via a standard HTTP request. After loading, the frontend establishes a WebSocket connection with the Node.js + Express backend using Socket.IO. Once connected, the client joins a specific "document room" by sending the document ID to the server. As the user types, their changes are sent in real-time to the server, which then broadcasts these updates to all other clients in the same room, enabling live collaboration. This two-way communication keeps all users’ editors synchronized instantly. Also optinaly , the server can also save the document to a database for later retrieval.
 
 
-
+![Image](https://github.com/user-attachments/assets/3c9d88db-d7ca-4fa1-8ca4-22243ecbb1e9)
+![Image](https://github.com/user-attachments/assets/71cb6b75-9c8e-4702-866a-42e48aead123)
 
